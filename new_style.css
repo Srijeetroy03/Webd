@@ -1,0 +1,76 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(sunset.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.content{
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 195, 255);
+    padding: 5px 8px;
+    border: 1px solid transparent;
+    transition: 0.8s ease-in;
+}
+ul li a:hover{
+    background-color: rgb(14,58,179);
+    color:aliceblue;
+}
+ul li.active a{
+    background-color: rgb(14,58,179);
+    color:aliceblue;
+
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height:auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color:blue;
+    font-size: 50px;
+    font-style: italic;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.8s ease-in;
+}
+.btn:hover{
+    background-color: rgb(14,58,179);
+    color:aliceblue;
+
+}

@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Forms
+        </title>
+    </head>
+    <style>
+        h1{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color:rgb(46, 25, 231);
+            margin-top: 20px;
+        }
+        form{
+            color: rgb(46,25,231);
+            margin:auto;
+        }
+        input{
+            border-radius: 10px;
+            padding: 5px 10px;
+            border-width: 1px;
+            border-color: rgb(46, 25, 231);
+        }
+        option{
+            border-radius: 10px;
+        }
+        ::placeholder{
+            color:cornflowerblue;
+        }
+        button{
+            border-radius: 10px;
+            padding:5px 10px;
+            border-color: rgb(140, 127, 255);
+            text-decoration: none;
+            transition: 0.3s ease-in;
+        }
+        button:hover{
+            background-color: rgb(140, 127, 255);
+
+        }
+        body{
+            background-image:url(back_image.jpg);
+        }
+
+    </style>
+    <body> 
+<h1>Hackathon Registration Form(ONLY FOR  COMPUTER SCIENCE AND ELECTRICAL ENGINEERING STUDENTS) </h1>
+<form name="myForms" onsubmit="return missing">
+1st Name: <input type="text" placeholder ="your 1st name">
+Middle Name: <input type="text" placeholder="your middle name">
+Last Name: <input type="text" placeholder="your last name"><br>
+<br>
+<!--Date Of Birth: <input type="date">-->
+<br><br>
+Contact No.(Whatsapp):
+<select>
+<option>+91</option>
+<option>+966</option>
+<option>+965</option>
+<option>+943</option>
+</select>
+<input type="text" placeholder="contact no."><br>
+<br>
+Enrollment No.: <input type="text" placeholder="your enrollment no."><br>
+<br>
+Roll no.: <input type="text" placeholder="your roll no."><br>
+<br>
+Year:<br><input type="radio" name="Year">1st <br>
+     <input type="radio" name="Year">2nd <br>
+     <input type="radio" name="Year">3rd <br>
+     <input type="radio" name="Year">4th <br>
+<br>
+Section: <input type="text" placeholder="your section(A-L)"><br>
+<br>
+Stream: 
+<select>
+<option>CSE</option>
+<option>CSIT</option>
+<option>ECE</option>
+<option>EE</option>
+<option>CS(AIML)</option>
+</select>
+<br>
+<br>
+Email Id: <input type="text" placeholder="your email Id"><br>
+<br>
+Gender: <br><input type="radio" name="Gender">Male <br>
+        <input type="radio" name="Gender">Female <br>
+        <input type="radio" name="Gender">Other: <input type="text"> <br>
+<br>
+<!--Create New Password: <input type="password" placeholder="new password"><br>
+(password should be 7-8 characters long<br>
+password should contain special characters @,#,%,&<br>
+password should contain atleast one uppercase character)<br>
+<br>
+Re-enter your new Password: <input type="password"><br>
+<br>
+Write about yourself: <br><textarea name="mytext" cols="30" rows="10"></textarea>
+<br>
+<br>
+<br>
+<br>-->
+<a href="confirm.html"><button type="button">SUBMIT</button></a>
+
+<!--<button type="reset" value="submit">RESET</button>
+<script>
+    function clkbtn(){
+        alert("Thanks for filling!");
+    }
+</script>-->
+
+</form>
+
+</body>
+</html>

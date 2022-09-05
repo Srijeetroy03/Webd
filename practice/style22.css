@@ -1,0 +1,26 @@
+*{
+    margin: 330;
+    padding: 0;
+}
+#blue{
+    color: bisque;
+    background-color: red;
+    /* height: 250px; */
+}
+.green{
+    color: aquamarine;
+    border: 2px solid green;
+    width: 255px;
+    height: 1500px;
+    
+    /* background-image: url('aks.webp');
+    background-repeat: no-repeat; */
+    background-size: 123px 135px;
+    /* background-position: top right; */
+    /* background-size: cover; */
+    /* background-attachment:scroll; */
+    /* background-attachment: fixed; */
+    background-attachment: local;
+    background: red url('aks.webp') no-repeat fixed ;
+
+}
